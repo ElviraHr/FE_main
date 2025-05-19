@@ -1,0 +1,46 @@
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.product-card {
+  padding: 16px;
+  width: 200px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: lightgray;
+  border-radius: 18px;
+}
+
+.product-card img {
+  width: 150px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;                    /* расстояние между ссылками */
+  justify-content: center;      /* центрирование по горизонтали */
+  background-color: #f0f0f0;    /* светло-серый фон */
+  padding: 15px 0;              /* отступ сверху и снизу */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;              /* крупнее текст */
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: #0077cc;
+}
